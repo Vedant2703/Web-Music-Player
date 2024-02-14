@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap');
+
+body{
+    background-color:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ nav
+ {
+    font-family: 'Poppins', sans-serif;
+ }
+ nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li 
+{
+    padding: 0px 12px;
+}
+
+ .brand img{
+    width: 44px;
+    padding: 0 8px ;
+ }
+ .brand
+ {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+ }
+.container
+{
+    min-height: 70vh;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 5px auto;
+    width: 70%;
+    padding: 24px;
+    border-radius: 12px;
+    background-image: url('bg.jpg');
+}
+ .bottom
+{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+}
+
+.icons
+{
+    margin: 12px ;
+}
+.icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.songItemcontainer{
+    margin-top: 10%;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 80%;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i {
+    cursor: pointer;
+}
+
+.songItem img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+.songInfo{
+    position: absolute;
+    left: 15vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition:opacity 1s ease-in
+}
+#myprogressBar{
+    width: 130vh;
+    cursor: pointer;
+}
